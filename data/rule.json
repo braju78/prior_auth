@@ -1,0 +1,6 @@
+{
+  "rule_text": "Apply these conditions in order: if the patient's plan is inactive, recommend Deny; if the note explicitly says that back pain has lasted less than 6 weeks or physiotherapy was tried for less than 6 weeks, recommend Deny; if the note does not establish the duration of back pain or physiotherapy, recommend Need more information; otherwise recommend Approve.",
+  "evaluation_order": ["inactive_plan","insufficient_duration","missing_duration","approve"],
+  "pain_threshold_weeks": 6,
+  "physio_threshold_weeks": 6
+}
