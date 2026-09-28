@@ -1,0 +1,5 @@
+[
+  {"patient_id":"P001","name":"Alex Morgan","plan_active":true},
+  {"patient_id":"P002","name":"Jordan Lee","plan_active":false},
+  {"patient_id":"P003","name":"Taylor Smith","plan_active":true}
+]
